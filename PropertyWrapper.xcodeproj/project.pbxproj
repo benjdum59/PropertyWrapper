@@ -17,6 +17,7 @@
 		0A5655C427E9B8F9007423D7 /* PropertyWrapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5655C327E9B8F9007423D7 /* PropertyWrapperUITests.swift */; };
 		0A5655C627E9B8F9007423D7 /* PropertyWrapperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5655C527E9B8F9007423D7 /* PropertyWrapperUITestsLaunchTests.swift */; };
 		0A5655D327E9BA81007423D7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5655D227E9BA81007423D7 /* ViewModel.swift */; };
+		0A5655D527E9BFC0007423D7 /* PropertyWrapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5655D427E9BFC0007423D7 /* PropertyWrapers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0A5655C327E9B8F9007423D7 /* PropertyWrapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperUITests.swift; sourceTree = "<group>"; };
 		0A5655C527E9B8F9007423D7 /* PropertyWrapperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0A5655D227E9BA81007423D7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0A5655D427E9BFC0007423D7 /* PropertyWrapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0A5655AD27E9B8F8007423D7 /* LaunchScreen.storyboard */,
 				0A5655B027E9B8F8007423D7 /* Info.plist */,
 				0A5655D227E9BA81007423D7 /* ViewModel.swift */,
+				0A5655D427E9BFC0007423D7 /* PropertyWrapers.swift */,
 			);
 			path = PropertyWrapper;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				0A5655A727E9B8F7007423D7 /* ViewController.swift in Sources */,
 				0A5655A327E9B8F7007423D7 /* AppDelegate.swift in Sources */,
+				0A5655D527E9BFC0007423D7 /* PropertyWrapers.swift in Sources */,
 				0A5655D327E9BA81007423D7 /* ViewModel.swift in Sources */,
 				0A5655A527E9B8F7007423D7 /* SceneDelegate.swift in Sources */,
 			);

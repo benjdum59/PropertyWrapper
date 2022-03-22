@@ -8,11 +8,11 @@
 import Foundation
 
 class ViewModel {
-    var updateUI: ((_ newString: String?) -> Void)?
+    @MainThread var updateUI: ((_ newString: String?) -> Void)?
     private var integer: Int = 0
     
     func updateData() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+        DispatchQueue(label: "background").asyncAfter(deadline: .now() + 0.5) { [weak self] in
             guard let self = self else {
                 return
             }
